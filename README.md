@@ -1,10 +1,10 @@
-# 📘 README — Atividade de Código Limpo
+ README — Atividade de Código Limpo
 
 **Disciplina: Técnicas Avançadas de Projeto de Software**
 
 ---
 
-## 🎯 Objetivo da Atividade
+## Objetivo da Atividade
 
 Esta atividade teve como objetivo aplicar conceitos de **código limpo (Clean Code)** em um projeto simples em Java, focando na melhoria da qualidade do código por meio de refatorações.
 
@@ -12,53 +12,53 @@ A proposta consistiu em analisar um código inicial considerado “sujo” e tra
 
 ---
 
-## 🧠 Conceitos Trabalhados
+## Conceitos Trabalhados
 
 Durante a atividade, foram aplicados os seguintes princípios fundamentais:
 
-### 🏷️ Nomes Significativos
+### Nomes Significativos
 
 * Substituição de nomes genéricos ou pouco descritivos por nomes claros
 * Exemplo: `p` → `peso`, `n` → `nome`
 
 ---
 
-### 🔁 Evitar Duplicação (DRY)
+### Evitar Duplicação (DRY)
 
 * Remoção de repetições desnecessárias no código
 * Uso de estruturas mais simples para evitar redundância
 
 ---
 
-### ✂️ Funções Pequenas e com Responsabilidade Única
+### Funções Pequenas e com Responsabilidade Única
 
 * Métodos passaram a realizar apenas uma tarefa específica
 * Separação de responsabilidades para facilitar manutenção
 
 ---
 
-### 📖 Código Expressivo
+### Código Expressivo
 
 * Criação de métodos com nomes que descrevem claramente sua função
 * Exemplo: `ehPesada()` ao invés de usar diretamente uma condição
 
 ---
 
-### 🧹 Remoção de Código Desnecessário
+### Remoção de Código Desnecessário
 
 * Exclusão de métodos redundantes ou sem uso
 * Redução de complexidade e poluição visual
 
 ---
 
-### 🔒 Encapsulamento
+### Encapsulamento
 
 * Cada classe passou a ser responsável por seu próprio comportamento
 * O código principal (`Main`) apenas utiliza os métodos, sem conhecer detalhes internos
 
 ---
 
-## 🏗️ Estrutura do Projeto
+## Estrutura do Projeto
 
 O projeto foi desenvolvido utilizando conceitos básicos de **Programação Orientada a Objetos (POO)**:
 
@@ -73,7 +73,7 @@ Cada classe implementa seu próprio comportamento por meio do método `emitirSom
 
 ---
 
-## 🔄 Processo de Refatoração
+## Processo de Refatoração
 
 As principais mudanças realizadas foram:
 
@@ -85,20 +85,7 @@ As principais mudanças realizadas foram:
 
 ---
 
-## ✅ Resultados
-
-Após a refatoração, o código tornou-se:
-
-* Mais legível
-* Mais simples
-* Mais organizado
-* Mais fácil de manter e evoluir
-
-Além disso, o projeto passou a refletir melhor os princípios ensinados na disciplina.
-
----
-
-## 📌 Considerações Finais
+## Conclusão
 
 A atividade demonstrou a importância de escrever código pensando não apenas na execução, mas também na **leitura e manutenção futura**.
 
