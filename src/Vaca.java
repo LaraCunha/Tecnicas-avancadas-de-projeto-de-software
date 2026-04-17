@@ -1,31 +1,39 @@
 public class Vaca extends Animal {
-    private double p;
 
-    public Vaca(String n, int i, double p) {
-        super(n, i);
-        this.p = p;
+    // Os nomes precisam ser significativos, mudei "p" para "peso"
+    private double peso;
+
+    // adicionei nomes claros para os parâmetros do construtor
+    public Vaca(String nome, int idade, double peso) {
+        super(nome, idade);
+        this.peso = peso;
     }
 
     @Override
     public void emitirSom() {
-        System.out.println("muu");
-        System.out.println("muu");
-        System.out.println("muu");
-        System.out.println("muu");
-        if (p > 400) {
-            System.out.println("pesada");
+
+        // Evitar duplicações
+            System.out.println("Muu");
+
+        // Método com nome descritivo
+        if (ehPesada()) {
+            System.out.println("Pesada");
         }
     }
 
-    public double getP() {
-        return p;
+    // Funções pequenas e com responsabilidade única
+    private boolean ehPesada() {
+        return peso > 400;
     }
 
-    public void setP(double p) {
-        this.p = p;
+    // Nomes consistentes e legíveis
+    public double getPeso() {
+        return peso;
     }
 
-    public void metodoVaca() {
-        System.out.println("vaca muge");
+    public void setPeso(double peso) {
+        this.peso = peso;
     }
+
+    // Remoção de métodos desnecessários ou redundantes
 }

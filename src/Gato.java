@@ -1,33 +1,21 @@
 public class Gato extends Animal {
-    private boolean t;
 
-    public Gato(String n, int i, boolean t) {
-        super(n, i);
-        this.t = t;
+    private boolean arranha;
+
+    public Gato(String nome, int idade, boolean arranha) {
+        super(nome, idade);
+        this.arranha = arranha;
     }
 
     @Override
     public void emitirSom() {
-        for (int j = 0; j < 3; j++) {
-            System.out.println("miau");
-            System.out.println("miau");
-        }
-        if (t) {
-            System.out.println("arranha");
+
+        System.out.println("Miau");
+
+        if (arranha) {
+            System.out.println("Arranha");
         } else {
-            System.out.println("nao arranha");
+            System.out.println("Não arranha");
         }
-    }
-
-    public boolean isT() {
-        return t;
-    }
-
-    public void setT(boolean t) {
-        this.t = t;
-    }
-
-    public void metodoGato() {
-        System.out.println("gato mia");
     }
 }

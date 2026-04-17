@@ -1,32 +1,15 @@
 public class Cachorro extends Animal {
-    private String r;
 
-    public Cachorro(String n, int i, String r) {
-        super(n, i);
-        this.r = r;
+    private String raca;
+
+    public Cachorro(String nome, int idade, String raca) {
+        super(nome, idade);
+        this.raca = raca;
     }
 
     @Override
     public void emitirSom() {
-        System.out.println("auau");
-        System.out.println("auau");
-        System.out.println("auau");
-        System.out.println("auau");
-        System.out.println("auau");
-        for (int z = 0; z < 2; z++) {
-            System.out.println("latido extra");
-        }
-        if (r.equals("Labrador")) {
-            System.out.println("grande");
-        }
-    }
-
-    public String getR() {
-        return r;
-    }
-
-    public void setR(String r) {
-        this.r = r;
+        System.out.println("Au au");
     }
 
 }
