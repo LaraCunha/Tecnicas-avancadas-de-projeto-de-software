@@ -1,3 +1,6 @@
+package classes.subclasses;
+import classes.Animal;
+
 public class Cachorro extends Animal {
 
     private String raca;
