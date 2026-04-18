@@ -1,3 +1,6 @@
+package classes.subclasses;
+import classes.Animal;
+
 public class Vaca extends Animal {
 
     // Os nomes precisam ser significativos, mudei "p" para "peso"

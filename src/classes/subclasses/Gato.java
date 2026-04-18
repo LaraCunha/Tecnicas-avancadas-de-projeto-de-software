@@ -1,3 +1,6 @@
+package classes.subclasses;
+import classes.Animal;
+
 public class Gato extends Animal {
 
     private boolean arranha;

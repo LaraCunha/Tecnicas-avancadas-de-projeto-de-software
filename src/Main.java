@@ -1,3 +1,8 @@
+import classes.Animal;
+import classes.subclasses.Cachorro;
+import classes.subclasses.Gato;
+import classes.subclasses.Vaca;
+
 public class Main {
     public static void main(String[] args) {
 
